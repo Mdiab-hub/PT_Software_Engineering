@@ -6,3 +6,8 @@ h1 {
 h3 {
     color: blueviolet;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
