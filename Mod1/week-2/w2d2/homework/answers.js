@@ -106,4 +106,53 @@ for(let i=0; i < 20; i++){
 } 
 const kittyTalk = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
 
+for(let i = 0; i < kittyTalk.length; i+=2) {    
+    console.log(Math.floor(Math.random() * kittyTalk[i]))
+    console.log(kittyTalk[i]); 
+}
+
+//Find the Median
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+console.log(Math.floor(nums.length/2))
+
+
+//Hungry for More?
+//Return of the Closets
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+//Alien Attire
+  var krystinShoe = kristynsCloset.splice(0,1)
+  //thomsCloset.push(krystinShoe)
+  console.log(thomsCloset.splice(2, 0, krystinShoe))
+
+//Dress Us Up
 
