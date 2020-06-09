@@ -110,11 +110,12 @@ for(let i = 0; i < kittyTalk.length; i+=2) {
     console.log(Math.floor(Math.random() * kittyTalk[i]))
     console.log(kittyTalk[i]); 
 }
+//I get NaN as output two of what the kitten says
 
 //Find the Median
 const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 console.log(Math.floor(nums.length/2))
-
+//I'm stuck here
 
 //Hungry for More?
 //Return of the Closets
@@ -153,6 +154,7 @@ const kristynsCloset = [
   var krystinShoe = kristynsCloset.splice(0,1)
   //thomsCloset.push(krystinShoe)
   console.log(thomsCloset.splice(2, 0, krystinShoe))
+  //How Do you splice through multi-dimension Arrays?
 
 //Dress Us Up
 
