@@ -7,8 +7,8 @@ for (let i = 0; i <= 200; i+=2){
 }*/
 
 //Fizz Buzz
-/*for (let i = 1; i <= 100; i++){
-    if(i % 3 === 0 && i % 5 === 0){ i % 3 === 0
+for (let i = 1; i <= 100; i++){
+    if(i % 3 === 0 && i % 5 === 0){ 
         console.log("FizzBuzz")
     } else if(i % 5 === 0){
         console.log("Buzz")
@@ -16,7 +16,7 @@ for (let i = 0; i <= 200; i+=2){
         console.log("Fizz")
     }
     console.log(i)
-}*/
+}
 
 //Wild Wild Life
 const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
@@ -27,12 +27,15 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 //1.
 plantee[2] = 5001
 console.log(plantee[2])
+
 //2.
 wolfy[3] = "Gotham City"
 console.log(wolfy)
+
 //3.
 const add = dart.push("Hawkins")
 console.log(dart)
+
 //4.
 const add2 = wolfy.unshift("GameBoy")
 const add3 = wolfy.pop("Wolfy")
@@ -54,7 +57,7 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 //console.log(favMovies)
 
 //2. This method removes last element on Array
-console.log(favMovies.pop())//Outputs 'Fast and Furious'
+//console.log(favMovies.pop())//Outputs 'Fast and Furious'
 
 //3.
 //console.log(favMovies.push("Gaurdians of the Galaxy"))
@@ -68,21 +71,26 @@ console.log(favMovies.pop())//Outputs 'Fast and Furious'
 //console.log(favMovies.reverse(favMovies.shift("Fast and Furious")))
 //console.log(favMovies.shift("Fast and Furious"))
 //I couldn't figure out how to use the shift method to remove "Fast and Furious"
+//console.log(favMovies.pop())
+//console.log(favMovies.indexOf("Fast and Furious"))
 
-//6.The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+//6.
+//The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
 //console.log(favMovies.unshift("Hello"))
 //console.log(favMovies)
 
 //7
 //deletefavMovies[3]
 //const spliceEx = favMovies.splice(4, 1, "Avatar")
-//console.log(favMovies.indexOf("Django Unchained"))
-//console.log(favMovies.splice(4, 1, "Avatar"))
+/*console.log(favMovies.indexOf("Django Unchained"))
+console.log(favMovies.splice(3, 1, "Avatar"))
+console.log(favMovies)*/
 
 //8. & 9.
-/*const favMovies2 = favMovies.splice(0, Math.ceil(favMovies.length / 2));
+/*const favMovies2 = favMovies.slice(0, Math.ceil(favMovies.length / 2));
 console.log(favMovies);
 console.log(favMovies2);*/
+//console.log(favMovies.slice)
 
 //10.
 //console.log(favMovies)
@@ -96,20 +104,34 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 
 //console.log(whereIsWaldo.indexOf("Eggbert"))
 //whereIsWaldo.splice(1,1, "Eggbert")
-console.log(whereIsWaldo.splice(1, 1))
-console.log(whereIsWaldo.splice(1, 2, "No One"))
+whereIsWaldo.splice(1, 1)
+whereIsWaldo[1].splice(2, 1, "No One")
 console.log(whereIsWaldo)
 
+
 //Excited Kitten
+const kittyTalk = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
+let catSpeak = 0
+let catSpeak2 = 1
+let catSpeak3 = 3
 for(let i=0; i < 20; i++){
     console.log("Love me, pet me! HSSSSSSSSS!!!!!")
+    if(i+=2 && i < kittyTalk){
+      console.log(kittyTalk[Math.floor(Math.random() * kittyTalk.length)])
+      //console.log(kittyTalk)
+    }
 } 
-const kittyTalk = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
 
-for(let i = 0; i < kittyTalk.length; i+=2) {    
-    console.log(Math.floor(Math.random() * kittyTalk[i]))
-    console.log(kittyTalk[i]); 
-}
+
+/*for(let i = 0; i < kittyTalk.length; i+=2) {    
+    //console.log(Math.floor(Math.random() * kittyTalk))
+    //console.log(kittyTalk[1]); 
+}*/
+
+/*for (let i = 0; i < 10; i+=2){
+  console.log(i)
+}*/
+
 //I get NaN as output two of what the kitten says
 
 //Find the Median
