@@ -3,15 +3,15 @@
 //=> data structure example: const computer = true; 
 
 //A light switch that can be either on or off.
-datatype: boolean
+//datatype: boolean
 const lightSwitch = true
 
 //A user's email address.
-datatype: string
+//datatype: string
 const emailAddress = ['jon.doe@yahoo.com']
 
 //A spaceship with a hull, laser blasters, tractor beam, and warp drive.
-datatype: object
+//datatype: object
 const spaceship = {
 
 desription: ['hull', 'laser blasters', 'tractor beam', 'warp drive']
@@ -19,41 +19,52 @@ desription: ['hull', 'laser blasters', 'tractor beam', 'warp drive']
 }
 
 //A list of student names from our class.
-datatype: Array
+//datatype: Array
 const names = ['jessica', 'albert', 'ryan']
 
 
 //A list of student names from our class, each with a location.
-dataype: object
+//dataype: object
 const studentName = {
-    'jessica'{
+    'jessica': {
     location: 'California',
     },
 
-  'robert'{
+  'robert': {
       location: 'Maine',
   },
 
-  'william'{
+  'william': {
       location: 'Ohio'
   }
 }
 
 //A list of student names from our class, each with a location and each with a list of favorite tv shows.
-dataype: object
-const studentName = {
-    'jessica'{
+//dataype: object
+const studentName2 = {
+    'jessica': {
     location: 'California',
     tvShows: ['the office', 'parks and recreation']
     },
 
-  'robert'{
+  'robert': {
       location: 'Maine',
       tvShows: ['the office', 'parks and recreation']
   },
 
-  'william'{
+  'william': {
       location: 'Ohio',
       tvShows: ['the office', 'parks and recreation']
   }
 }
+
+//Take it Easy
+const rainbow= ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+const blue = rainbow[4]
+const myName = {
+    favorite_food: 'pizza',
+    hobby: 'solving puzzles',
+    town: 'Columbus',
+    favDatatype: 'Arrays'
+}
+console.log(myName.hobby)
