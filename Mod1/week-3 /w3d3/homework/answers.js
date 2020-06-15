@@ -118,3 +118,28 @@ console.log(crazyObject.larry.name)
 const addQuote = crazyObject.larry.quotes.push("I'm trying to elevate small talk to medium talk")
 //console.log(addQuote)
 console.log(crazyObject.larry.quotes)
+
+
+/////////////////////////
+///Object-ception
+//////////////////////////
+const inception = {
+    reality: {
+        dreamLayer1: {
+            dreamLayer2: {
+                dreamLayer3: {
+                    dreamLayer4: {
+                        dreamLayer5: {
+                            dreamLayer6: {
+                                limbo: "Joseph Gordon Levitt"
+                           }
+                        }
+                    }
+                }
+            }
+        }
+    }
+ }
+ const addVal = inception.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = 'null'
+ console.log(inception)
+ //TypeError: Cannot read property 'dreamLayer2' of undefined
