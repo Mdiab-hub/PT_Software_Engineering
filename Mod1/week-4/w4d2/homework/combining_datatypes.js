@@ -27,24 +27,17 @@ const receipt = [{name: 'pretzels', price: '2.99'}]
 // ]
 
 
-// const crayonSelector = () => {
 
-// }
 
-// crayonSelector = (obj) => {
-//     for(key in obj){
-//         typeof obj[key]
-//         if(key === Array){
-//             console.log(`{obj[key]}`)
-//         }
-//     }
-// }
 
-// crayonSelector(crayonBox)
+////////////////////////////////////////////////////////////////////
+////Combine objects, arrays, and functions more than one level deep
+////////////////////////////////////////////////////////////////////
 
+//1.
 //create a funtion called knit
-// creating an object 
-// with keys of item, and size
+//creating an object 
+//with keys of item, and size
 //with values of scarf and 6ft
 //RETURNING an object.key
 
@@ -67,11 +60,19 @@ const addNums = (a, b) => {
 
 console.log(addNums(3, 2))
 
+//2.
+crayonSelector = (obj) => {
+    for(key in obj){
+        typeof obj[key]
+        if(key === Array){
+            console.log(`{obj[key]}`)
+        }
+    }
+}
 
+crayonSelector(crayonBox)
 
-//Step 3
-
-
+//3.
 //create a function called powerbUTTON
 //RETURNS FUNCTION OPTIONS (CREATE A FUNCTION CALLED OPTIONS)
 //options should console.log
@@ -86,6 +87,9 @@ const powerButton = () => {
 powerButton()
 //console.log(powerButton())
 
+
+
+//Step 3
 
 //Model a veniding machine
 //vending machine is an object
