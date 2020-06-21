@@ -9,7 +9,7 @@ const crayonBox = {
     listOfCrayons: ['indigo', 'red', 'green', 'black', 'brown']
 }
 
-console.log(crayonBox[0])
+//console.log(crayonBox[0])
 
 const bottle = {
     cap: {
@@ -54,11 +54,11 @@ const knit = () => {
 
 console.log(knit())
 
-const addNums = (a, b) => {
-    return a + b
-}
+// const addNums = (a, b) => {
+//     return a + b
+// }
 
-console.log(addNums(3, 2))
+// console.log(addNums(3, 2))
 
 //2.
 crayonSelector = (obj) => {
@@ -73,13 +73,13 @@ crayonSelector = (obj) => {
 crayonSelector(crayonBox)
 
 //3.
-//create a function called powerbUTTON
+//create a function called powerButton
 //RETURNS FUNCTION OPTIONS (CREATE A FUNCTION CALLED OPTIONS)
 //options should console.log
 
 const powerButton = () => {
     const options = () => {
-        console.log('we made it')
+        console.log('select a song')
     }
     options()
 }
@@ -89,7 +89,9 @@ powerButton()
 
 
 
-//Step 3
+//////////////////////////
+//Model a Vending Machine 
+//////////////////////////
 
 //Model a veniding machine
 //vending machine is an object
@@ -124,3 +126,52 @@ const vendingMachine = {
 
 }
 console.log(vendingMachine.vend(vendingMachine))
+
+
+///////////////
+//Callbacks////
+///////////////
+
+const addNums = (a, b) => {
+    return a + b
+}
+
+const subNums = (a, b) => {
+    return a - b
+}
+
+const mulNums = (a, b) => {
+    return a * b
+}
+
+const divNums = (a, b) => {
+    return a / b
+}
+
+const calculates = (num1, num2, operates) => {
+    return operates(num1, num2)
+}
+
+console.log(calculates(5, 5, addNums))
+
+////////////////////////////////////
+//Function definition placement////
+///////////////////////////////////
+
+const bar = () => {
+    console.log('bar here');
+}
+bar();
+
+const foo = () => {
+    console.log('foo here');
+}
+foo();
+
+
+////////////////
+//Error reading
+////////////////
+
+//What is meant by the error(s) this produces? We can't call a function before it is initialized
+
