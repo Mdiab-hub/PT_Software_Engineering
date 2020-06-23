@@ -84,7 +84,7 @@ for (let i = 0; i < 100; i++) {
 for (let i = 0; i < 999; i++){
   console.log(i)
 }
-//What is \ doing in the string? Is it to tell that apostraphe apart? Is it to differentiate between a tick and a apostrophe? in a string?
+//What is \ doing in the string? Is it to tell that apostrophe apart? Is it to differentiate between a tick and a apostrophe? in a string?
 
 for (let i = 0; i <= 10; i++) {
   console.log('The value of i is: ' + i + ' of 10');
@@ -95,5 +95,12 @@ for (let i = 0; i < StarWars.length; i+= 2){
   console.log(StarWars[i]);
 } 
 
+for (let i = 999; i >= 0; i--){
+  console.log(i)
+}
+
+for (let i = 1; i <= 10; i++){
+  console.log(`The value of i is: ${i} of 10`)
+}
 
 
