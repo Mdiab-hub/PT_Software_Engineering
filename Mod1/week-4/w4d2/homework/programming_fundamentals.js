@@ -1,3 +1,9 @@
+/////////////////////////////////////////////
+///Section 1: Programming Fundamentals//////
+///////////////////////////////////////////
+
+//Common programming principles
+
 // Write a ~1 sentence summary for each one
 // Which ones surprise you (if any)?
 // Which one is currently giving you the most struggle?

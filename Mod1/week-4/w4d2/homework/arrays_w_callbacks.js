@@ -38,14 +38,25 @@ console.log(nums.findIndex(numFive))
 const panagramFive = p => p.length > 2 
 console.log(panagram.findIndex(panagramFive))
 
+//For Each
+//1.
+nums.forEach(n => console.log(n * 3))
+
+//2.
+//const panagramTen = p => p.length 
+panagram.forEach(p => console.log(p + '!'))
+
 //Map
 //1.
 const numSix = n => n * 100
 console.log(nums.map(numSix))
 //2.
-const panagramSix = p => p.toUpperCase
+//const panagramSix = p => p.toUpperCase
 //const panagramSeven = panagram.toUpperCase()
-console.log(panagram.map(panagramSix))//outputs [Function: toUpperCase], 9 times
+//console.log(panagram.map(panagramSix))//outputs [Function: toUpperCase], 9 times
+
+const panagramNine = panagram.map(p => p.toUpperCase())
+console.log(panagramNine)
 
 
 //Some
