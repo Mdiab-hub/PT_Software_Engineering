@@ -1,0 +1,49 @@
+body {
+    background-color: azure;
+  }
+
+  .couleur {
+      
+      display: inline-block;
+      background-color: dimgrey;
+      width: 600px;
+      height: 100px;
+      position: relative;
+  }
+  .couleur~.couleur {
+    
+    background-color: firebrick;
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+
+  .couleur~.couleur~.couleur {
+    
+    background-color: ivory;
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+
+  .couleur~.couleur~.couleur~.couleur {
+    background-color: cornflowerblue;
+    width: 600px;
+    height: 100px;
+  }
+  #leftbox{
+      float: left;
+  }
+  #middlebox{
+      float: left;
+  }
+  #rightbox{
+      float: right;
+  }
+
