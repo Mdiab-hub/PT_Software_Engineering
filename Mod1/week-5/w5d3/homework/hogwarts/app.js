@@ -37,5 +37,19 @@ $(() => {
     const $li6 = $("<li>Bertie Bott's Every Flavor Beans</li>")
 
     $container.append($ul)
+    $container.append($li1)
+    $container.append($li2)
+    $container.append($li3)
+    $container.append($li4)
+    $container.append($li5)
+    $container.append($li6)
+
+    //////////////
+    //year 4//////
+    //////////////
+
+
+    const $h5 = $("<h5>Spring 2017</h5>")
+    const $table = $("<table> <tr><th>Day</th><th>Classes</th></tr> <tr><th>Monday</th><th>Transfiguration, Charms</th></tr> <tr><th>Tuesday</th><th> Divination, History of Magic</th></tr> <tr><th>Wednesday</th><th>Transfiguration, Charms</th></tr></tr> <tr><th>Thursday</th><th>Herbology, Potions</th></tr> <tr><th>Friday</th><th>Defense Against the Dark Arts</th></tr> </table>")
 });
 
