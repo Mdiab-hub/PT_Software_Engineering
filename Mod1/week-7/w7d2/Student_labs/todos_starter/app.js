@@ -1,55 +1,88 @@
-const todoInput = document.getElementById("input-box")
-const todoButton = document.getElementById("submit")
-//const todoList = document.getElementById("lists")
+// const input = document.querySelector('input')
+// const btn = document.querySelector('.addTask > button')
+// //const input = document.querySelector('input')
+
+
+// btn.addEventListener('click', addList)
+// function addList(e){
+//     const notCompleted = document.querySelector('.notCompleted')
+//     const Completed = document.querySelector('.Completed')
+
+//     const newLi = document.createElement('li')
+//     const checkBtn = document.createElement('button')
+//     const delBtn = document.createElement('button')
+
+//     checkBtn.innerHTML = '<h2>Completed</h2>'
+//     delBtn.innerHTML = '<h2>Remove</h2>'
+
+//     if(input.value !==''){
+//         newLi.textContent = input.value
+//         input.value = ''
+//         notCompleted.appendChild(newLi)
+//     }
+// }
+
+
+
+
+
+
+
+
+//const todoInput = document.getElementById("input-box")
+//const todoButton = document.getElementById("container")
+//const todoButton1 =  document.getElementById("input-container") 
+// const todoButton2 = document.getElementById("submit")
+//const todoList1 = document.getElementById("lists")
+//const todoList2 = document.getElementById("completed")
 // const todoList1 = document.getElementById("to-do-list")
 // const newItem = document.createElement("button")
 // todoList1.appendChild(newItem)
 //const todoList2 = document.getElementById("completed")
 
-//now do I choose the big container div or the left or right ones and do i have to create two seperate divs
+// const todoList = document.getElementById("lists")
+// const todoList1 = document.getElementById("to-do-list")
+// const todoList2 = document.getElementById("completed")
+//todoButton.addEventListener('click', addTodo)
 
-todoButton.addEventListener('click', addTodo)
 
+//todoList1.document.createElement("button")
 
-//todoList1.document.createElement("button") //why is this not working is it wrong syntax
-
-function addTodo(event){
+//function addTodo(event){
     //prevents form from submitting
-    event.preventDefault();
+    //event.preventDefault();
     //console.log('hello')
+    //const todoList1 = document.getElementById("lists")
+    //const todoList1 = document.getElementById("to-do-list")
+    //const todoList2 = document.getElementById("completed")
 
-    const todoList1 = document.getElementById("to-do-list")
-    const todoList2 = document.getElementById("completed")
-
-
-    const newTodo = document.createElement('li')
-    const cmptBtn = document.createElement("button")
-    const delBtn = document.createElement("button")
-
-
-    cmptBtn.innerHTML='Complete'
-    delBtn.innerHTML='Remove'
-
-    if(input.value !== ''){
-        newTodo.textContent = input.value
-        input.value = ''
-        todoList1.appendChild(newTodo)
-        newTodo.appendChild(cmptBtn)
-        newTodo.appendChild(delBtn)
-    }
+    //const newTodo = document.createElement('li')
+    //const cmptBtn = document.createElement("button")
+    //const delBtn = document.createElement("button")
 
 
-    //todoList1.document.createElement("button")
-    //completedButton.innerHTML = <i class="fas fa-check"></i>
-    //todoList1.classList.add("to-do-list")
-    //todoList1.appendChild(addButton)
+    //cmptBtn.innerHTML='Complete'
+    //delBtn.innerHTML='Remove'
+
+     //if(input.value !== ''){
+         //newTodo.textContent = input.value
+         //input.value = ''
+         //todoList1.appendChild(newTodo)
+         //newTodo.appendChild(cmptBtn)
+         //newTodo.appendChild(delBtn)
+     //}
+
+
+    // todoList1.document.createElement("li")
+    // todoList1.classList.add("to-do-list")
+    // todoList1.appendChild(addButton)
 
 
 
 
 
-    const newItem = document.createElement("button")
-    todoList1.appendChild(newItem)
+    // const newItem = document.createElement("button")
+    // todoList1.appendChild(newItem)
     
 
     //todo div
@@ -83,6 +116,23 @@ function addTodo(event){
 
     //append to list
     //todoList.appendChild(todoDiv)
-}
+//}
 
 //console.log(addTodo())
+
+const todoButton2 = document.getElementById("submit")
+
+
+function addTodo(e){
+    const todoList1 = document.getElementById("to-do-list")
+    
+    const newTodo = document.createElement('li')
+    const todoInput = document.getElementById("input-box")
+
+    if(todoInput !==''){
+                 newTodo.textContent = todoInput
+                 todoInput = ''
+                 todoList1.appendChild(newTodo)
+             }
+
+}
