@@ -143,9 +143,18 @@ const makeBaddies = () => {
 const makeBuddies = () => {
 
   // 1. create an aside tag and append it to middle-earth below mordor
-
+  const aside = document.createElement("aside")
+  aside.insertAfter("Mordor")
   // 2. display an unordered list of buddies in the aside
+  const buddyUl = document.createElement("ul")
+  aside.append("buddyUl")
 
+  for (let i = 0; i < buddies.length; i++){
+    const buddiesLi = document.createElement("li")
+    document.innerText(buddies[i])
+    document.addClass("buddy")
+    buddyUl.append(buddiesLi)
+  }
   // 3. give each of the buddies a class of "buddy"
 
   // 4. don't forget to append them to the aside
