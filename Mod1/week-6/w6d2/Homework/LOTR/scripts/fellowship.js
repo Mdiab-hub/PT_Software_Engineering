@@ -121,11 +121,17 @@ const keepItSecretKeepItSafe = () => {
 const makeBaddies = () => {
 
   // 1. display an unordered list of baddies in Mordor
-
+  const badUl = document.createElement("ul")
   // 2. give each of the baddies a class of "baddy"
-
+  for (let i=0; i < baddies.length; i++){
+    const badLi = document.createElement("li")
+    document.innerText(baddies[i])
+    document.addClass("baddies")
+    badUl.append(badLi)
+  }
   // 3. remember to append the ul to Mordor
-
+  document.setAttribute("Mordor")
+  document.append(badUl)
 };
 
 // COMMIT YOUR WORK
