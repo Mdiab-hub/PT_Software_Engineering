@@ -171,7 +171,9 @@ const makeBuddies = () => {
 const leaveTheShire = () => {
   // 1. grab the hobbits (the ul in which they reside) and move them to Rivendell
       // hint: the hobbits ul is a childNode of The-Shire-- there is way to get a list of childNodes
-
+  const movingHobbits = document.setAttribute("The-shire")
+  document.children("ul")
+  movingHobbits.detach().appendTo("#Rivendell")
 };
 
 // COMMIT YOUR WORK
@@ -184,7 +186,10 @@ const beautifulStranger = () => {
 
   // 1. change the buddy 'Strider' textnode to "Aragorn"
      // hint: You can get a list of elements by tag name, such as 'aside'
-
+  document.getElementById("buddy")
+  document.isEqualNode(3)
+  document.eq(3)
+  document.innerText("Aragorn")
 };
 
 // COMMIT YOUR WORK
