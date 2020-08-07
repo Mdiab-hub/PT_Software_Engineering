@@ -1,40 +1,11 @@
-// const input = document.querySelector('input')
-// const btn = document.querySelector('.addTask > button')
-// //const input = document.querySelector('input')
-
-
-// btn.addEventListener('click', addList)
-// function addList(e){
-//     const notCompleted = document.querySelector('.notCompleted')
-//     const Completed = document.querySelector('.Completed')
-
-//     const newLi = document.createElement('li')
-//     const checkBtn = document.createElement('button')
-//     const delBtn = document.createElement('button')
-
-//     checkBtn.innerHTML = '<h2>Completed</h2>'
-//     delBtn.innerHTML = '<h2>Remove</h2>'
-
-//     if(input.value !==''){
-//         newLi.textContent = input.value
-//         input.value = ''
-//         notCompleted.appendChild(newLi)
-//     }
-// }
-
-
-
-
-
-
-
-
-//const todoInput = document.getElementById("input-box")
-//const todoButton = document.getElementById("container")
-//const todoButton1 =  document.getElementById("input-container") 
-// const todoButton2 = document.getElementById("submit")
-//const todoList1 = document.getElementById("lists")
-//const todoList2 = document.getElementById("completed")
+document.body.onload;
+const todoInput = document.getElementById("input-box")
+//document.appendChild(todoInput)
+const todoButton = document.getElementById("container")
+const todoButton1 =  document.getElementById("input-container") 
+const todoButton2 = document.getElementById("submit")
+const todoList1 = document.getElementById("lists")
+const todoList2 = document.getElementById("completed")
 // const todoList1 = document.getElementById("to-do-list")
 // const newItem = document.createElement("button")
 // todoList1.appendChild(newItem)
@@ -48,7 +19,7 @@
 
 //todoList1.document.createElement("button")
 
-//function addTodo(event){
+function addTodo(event){
     //prevents form from submitting
     //event.preventDefault();
     //console.log('hello')
@@ -70,7 +41,7 @@
          //todoList1.appendChild(newTodo)
          //newTodo.appendChild(cmptBtn)
          //newTodo.appendChild(delBtn)
-     //}
+     }
 
 
     // todoList1.document.createElement("li")
