@@ -1,0 +1,233 @@
+.container-1 {
+  display: flex;
+}
+
+.container-1 > div {
+  
+  border: 1px #ccc solid;
+}
+
+.box-1 {
+  background-color: rgb(255, 196, 26);
+  font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:14px;
+  height:354px;
+  line-height:20px;
+  min-height:1px;
+  color: white;
+  width:426.656px;
+  float:left;   
+  flex:1;
+  padding-left:76px;
+  padding-right:76px;
+  position:relative;
+}
+
+
+
+.quadrant-info{
+bottom:22.625px;
+box-sizing:border-box;
+color:rgb(51, 51, 51);
+display:block;
+font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size:14px;
+height:116px;
+left:0px;
+line-height:20px;
+margin-left:34.125px;
+margin-right:34.125px;
+position:absolute;
+right:0px;
+text-size-adjust:100%;
+width:358.406px;
+
+}
+
+.quadrant-info-2{
+  bottom:22.625px;
+  box-sizing:border-box;
+  color:rgb(51, 51, 51);
+  display:block;
+  font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:14px;
+  height:116px;
+  left:0px;
+  line-height:20px;
+  margin-left:34.125px;
+  margin-right:34.125px;
+  position:absolute;
+  right:0px;
+  text-size-adjust:100%;
+  width:358.406px;
+  
+  }
+
+.homepage-heading{
+  
+  box-sizing:border-box;
+  color:rgb(255, 255, 255);
+  display:block;
+  
+  font-size:16px;
+  font-weight:700;
+  height:44px;
+  letter-spacing:0.5px;
+  line-height:44px;
+  margin-block-end:17px;
+  margin-block-start:20px;
+  margin-bottom:17px;
+  margin-inline-end:0px;
+  margin-inline-start:0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+  position:relative;
+  text-decoration-color:rgb(255, 255, 255);
+  text-decoration-line:none;
+  text-decoration-style:solid;
+  text-size-adjust:100%;
+  transition-delay:0s;
+  transition-duration:0.2s;
+  transition-property:opacity;
+  transition-timing-function:ease-in-out;
+  width:358.406px;
+}
+
+.white-square-line{
+
+  background-color:rgb(255, 255, 255);
+  box-sizing:border-box;
+  color:rgb(51, 51, 51);
+  display:block;
+  font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  height:5px;
+  line-height:20px;
+  margin-top: 10px;
+  max-height:5px;
+  max-width:5px;
+  min-height:5px;
+  min-width:5px;
+  text-size-adjust:100%;
+  width:5px;
+  
+  }
+.site-intro{
+  box-sizing:border-box;
+color:rgb(255, 255, 255);
+display:block;
+font-family:Texgyreadventor, sans-serif;
+font-size:25px;
+font-weight:700;
+height:160px;
+letter-spacing:0.3px;
+line-height:32px;
+margin-block-end:10px;
+margin-block-start:20px;
+margin-bottom:10px;
+margin-inline-end:0px;
+margin-inline-start:0px;
+margin-left:0px;
+margin-right:0px;
+margin-top:20px;
+position:relative;
+text-align:center;
+text-size-adjust:100%;
+top:107.531px;
+transform:matrix(1, 0, 0, 1, 0, -80);
+width:274.656px;
+}
+.j-icon {
+bottom:226.719px;
+box-sizing:border-box;
+color:rgb(51, 51, 51);
+display:block;
+font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size:14px;
+height:35px;
+left:12.7969px;
+line-height:20px;
+margin-left:12.7969px;
+margin-top:12.7969px;
+max-width:50px;
+min-height:35px;
+min-width:35px;
+position:absolute;
+right:366.062px;
+text-size-adjust:100%;
+top:8.48438px;
+width:35px;
+z-index:1;
+}
+
+.small-text{
+border-bottom-color:rgb(0, 0, 0);
+border-bottom-style:none;
+border-bottom-width:0px;
+border-top-color:rgb(255, 255, 255);
+border-top-style:solid;
+border-top-width:1px;
+box-sizing:border-box;
+color:rgb(255, 255, 255);
+display:block;
+font-family:Texgyreadventor, sans-serif;
+font-size:11.5px;
+font-weight:400;
+height:47px;
+letter-spacing:0.4px;
+line-height:42px;
+margin-top:-3px;
+padding-top:4px;
+text-size-adjust:100%;
+width:358.406px;
+}
+
+
+.list-group-item{
+  padding-left:76px;
+  padding-right:76px;
+  height:354px;
+  width:426.656px;
+  position:relative;
+  transition-delay:0s;
+  transition-duration:0.2s;
+  transition-property:background-color;
+  transition-timing-function:ease-in-out;
+}
+.box-2 {
+
+  float: left;
+  flex:1;
+}
+
+.box-3 {
+  float:left; 
+  flex:1;
+}
+
+
+.container-2{
+  display: flex;
+}
+.container-2 > div {
+  
+  border: 1px #ccc solid;
+}
+
+.box-4 {
+  float:left; 
+  flex:1;
+}
+
+.box-5 {
+  float:left; 
+  flex:1;
+}
+
+.box-6 {
+  float:left; 
+  flex:1;
+}
+
+
