@@ -1,0 +1,107 @@
+.header {
+    background-attachment:scroll;
+    background-clip:border-box;
+    background-color:rgb(242, 242, 238);
+    background-image:none;
+    background-origin:padding-box;
+    background-position-x:0%;
+    background-position-y:0%;
+    background-size:auto;
+    border-bottom-color:rgb(0, 0, 0);
+    border-bottom-style:none;
+    border-bottom-width:0px;
+    border-image-outset:0;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    border-left-color:rgb(0, 0, 0);
+    border-left-style:none;
+    border-left-width:0px;
+    border-right-color:rgb(0, 0, 0);
+    border-right-style:none;
+    border-right-width:0px;
+    border-top-color:rgb(0, 0, 0);
+    border-top-style:none;
+    border-top-width:0px;
+    box-shadow:none;
+    box-sizing:border-box;
+    color:rgb(0, 0, 0);
+    display:block;
+    font-family:GTWalsheimLight;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    height:76.5px;
+    line-height:26.4px;
+    text-size-adjust:100%;
+    transition-delay:0s, 0s, 0s;
+    transition-duration:0.3s, 0.3s, 0.3s;
+    transition-timing-function:ease-in-out, ease-in-out, ease-in-out;
+    width:1423px;
+    -webkit-font-smoothing:antialiased;
+}
+.HorizontalList_item{
+    border-bottom-left-radius:50%;
+border-bottom-right-radius:50%;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+box-sizing:border-box;
+color:rgb(0, 0, 0);
+display:inline-block;
+font-family:GTWalsheimLight;
+font-size:16px;
+font-style:normal;
+font-weight:400;
+height:26px;
+line-height:26.4px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-bottom:0px;
+margin-left:30px;
+margin-right:30px;
+margin-top:0px;
+text-align:left;
+text-size-adjust:100%;
+width:42.4219px;
+-webkit-font-smoothing:antialiased;
+}
+.menuitem{
+    background-color:rgba(0, 0, 0, 0);
+box-sizing:border-box;
+color:rgb(20, 40, 26);
+cursor:pointer;
+display:inline;
+font-family:GTWalsheimMedium, sans-serif;
+font-size:15px;
+font-style:normal;
+font-weight:500;
+height:auto;
+line-height:24.75px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+text-align:left;
+text-decoration-color:rgb(20, 40, 26);
+text-decoration-line:none;
+text-decoration-style:solid;
+text-size-adjust:100%;
+transition-delay:0s;
+transition-duration:0.2s;
+transition-property:color;
+transition-timing-function:ease-in-out;
+width:auto;
+-webkit-font-smoothing:antialiased;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+}
+
+.three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+}
